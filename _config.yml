@@ -20,26 +20,26 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : mansu::code
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: ko # the language of your site, default as "en"
+timezone: Asia/Seoul # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : kim joon seok
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
-  email     :
+  bio       : A student want to be a software developer.
+  email     : mansukim1125@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -49,13 +49,13 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : "mansukim1125" # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: mansukim1125/mansukim1125.github.io
 repository_tree: master
 
 
@@ -84,7 +84,7 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
+mathjax: true # (default), true
 mathjax_autoNumber: # false (default), true
 
 ## Mermaid
@@ -118,7 +118,14 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+  gitalk:
+    clientID: "50680b1a99c4f5cf6f13"
+    clientSecret: "a5903a641fc5cb58dc7c29e6878a0e7d5b669207"
+    repository: "mansukim1125.github.io"
+    owner: "mansukim1125"
+    admin:
+      - "mansukim1125"
 
   ## Disqus
   disqus:
