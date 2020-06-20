@@ -118,14 +118,14 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
-  gitalk:
-    clientID: "50680b1a99c4f5cf6f13"
-    clientSecret: "a5903a641fc5cb58dc7c29e6878a0e7d5b669207"
-    repository: "mansukim1125/gitalk-comments"
-    owner: "mansukim1125"
-    admin:
-      - "mansukim1125"
+  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+#   gitalk:
+#     clientID: "50680b1a99c4f5cf6f13"
+#     clientSecret: "a5903a641fc5cb58dc7c29e6878a0e7d5b669207"
+#     repository: "mansukim1125/gitalk-comments"
+#     owner: "mansukim1125"
+#     admin:
+#       - "mansukim1125"
 
   ## Disqus
 #   disqus:
