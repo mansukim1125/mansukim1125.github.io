@@ -198,23 +198,23 @@ $ git remote -v
 실행 결과:
 
 ```
-origin	https://github.com/officialmansu/study.git (fetch)
-origin	https://github.com/officialmansu/study.git (push)
+origin	https://github.com/<your-account-name>/study.git (fetch)
+origin	https://github.com/<your-account-name>/study.git (push)
 ```
 
 동기화할 upstream이 없다. 추가해보자.
 
 ```bash
-$ git remote add upstream https://github.com/mansukim1125/study.git
+$ git remote add upstream https://github.com/<upstream-repo>/study.git
 ```
 
 실행 결과:
 
 ```
-origin	https://github.com/officialmansu/study.git (fetch)
-origin	https://github.com/officialmansu/study.git (push)
-upstream	https://github.com/mansukim1125/study.git (fetch)
-upstream	https://github.com/mansukim1125/study.git (push)
+origin	https://github.com/<your-account-name>/study.git (fetch)
+origin	https://github.com/<your-account-name>/study.git (push)
+upstream	https://github.com/<upstream-repo>/study.git (fetch)
+upstream	https://github.com/<upstream-repo>/study.git (push)
 ```
 
 추가되었다. Local Repo의 `<your-account-name>` Branch로 이동하자. 그 후, upstream의 `<your-account-name>` Branch의 내용을 가져오자.
@@ -239,15 +239,15 @@ Fast-forwarded <your-account-name> to upstream/<your-account-name>.
 이로써 upstream의 `<your-account-name>`과 Local Repo의 `<your-account-name>`은 같은 상태가 되었다. 이제 origin의 `<your-account-name>`만 동기화해주면 된다.
 
 ```bash
-$ git push origin officialmansu
+$ git push origin <your-account-name>
 ```
 
 실행 결과:
 
 ```
 Total 0 (delta 0), reused 0 (delta 0)
-To https://github.com/officialmansu/study.git
-   8b00a5d..52b99aa  officialmansu -> officialmansu
+To https://github.com/<your-account-name>/study.git
+   8b00a5d..52b99aa  <your-account-name> -> <your-account-name>
 ```
 
 동기화가 완료되었다. 이제 Local Repo의 `<your-account-name>` Branch를 기준으로 새 작업 Branch를 만들어 작업을 시작하면 된다.
