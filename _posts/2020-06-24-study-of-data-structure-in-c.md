@@ -1,6 +1,6 @@
 ---
 title: C로 자료구조 공부하기
-tags: Study, GitHub
+tags: Study GitHub
 ---
 
 # C로 자료구조 공부하기
