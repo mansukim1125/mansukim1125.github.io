@@ -3,9 +3,8 @@ title: [자료구조 스터디] 문제 1_Spiral Matrix
 tags: Study Data-Structures Array
 ---
 
-## [자료구조 스터디] 문제 1_Spiral Matrix
 
-### 문제
+## 문제
 
 사용자가 입력한 정수 ![svg](https://latex.codecogs.com/svg.latex?size)에 대해 ![svg](https://latex.codecogs.com/svg.latex?size%5Ctimes%20size)의 2차원 배열을 생성한 뒤, 1부터 시계방향으로 채워넣습니다. 예를 들어 ![svg](https://latex.codecogs.com/svg.latex?size)가 5일 경우,
 
@@ -20,21 +19,21 @@ tags: Study Data-Structures Array
 
 를 출력합니다.
 
-### 입력
+## 입력
 
 정수
 
-### 출력
+## 출력
 
 1부터 시계방향으로 채워넣은 ![svg](https://latex.codecogs.com/svg.latex?size%5Ctimes%20size)의 2차원 배열
 
-### 입출력 예시
+## 입출력 예시
 
-#### 입력 1
+### 입력 1
 
 `7`
 
-#### 출력 1
+### 출력 1
 
 ```
  1  2  3  4  5  6  7 
@@ -47,11 +46,11 @@ tags: Study Data-Structures Array
 
 ```
 
-#### 입력 2
+### 입력 2
 
 `10`
 
-#### 출력 2
+### 출력 2
 
 ```
  1  2  3  4  5  6  7  8  9 10 
@@ -67,11 +66,11 @@ tags: Study Data-Structures Array
 
 ```
 
-#### 입력 3
+### 입력 3
 
 `17`
 
-#### 출력 3
+### 출력 3
 
 ```
  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 
