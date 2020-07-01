@@ -3,7 +3,6 @@ title: [자료구조 스터디] 문제 1_Spiral Matrix
 tags: Study Data-Structures Array
 ---
 
-
 ## 문제
 
 사용자가 입력한 정수 ![svg](https://latex.codecogs.com/svg.latex?size)에 대해 ![svg](https://latex.codecogs.com/svg.latex?size%5Ctimes%20size)의 2차원 배열을 생성한 뒤, 1부터 시계방향으로 채워넣습니다. 예를 들어 ![svg](https://latex.codecogs.com/svg.latex?size)가 5일 경우,
