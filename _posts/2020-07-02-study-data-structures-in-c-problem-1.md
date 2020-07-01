@@ -1,6 +1,6 @@
 ---
 title: [자료구조 스터디] 문제 1_Spiral Matrix
-tags: Study "Data Structure" Array
+tags: Study Data%20Structure Array
 ---
 
 ## [자료구조 스터디] 문제 1_Spiral Matrix
