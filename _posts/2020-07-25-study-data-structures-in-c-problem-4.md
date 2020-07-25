@@ -1,6 +1,6 @@
 ---
-title: 자료구조 스터디_문제 3_크레인 인형뽑기 게임
-tags: Study Data-Structures Stack
+title: 자료구조 스터디_문제 4_카드
+tags: Study Data-Structures Queue
 ---
 
 # 카드
