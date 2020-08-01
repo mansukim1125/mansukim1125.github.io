@@ -186,3 +186,6 @@ tags: Study Data-Structures Recursion
 
 ```
 
+# 출처
+
+> Baekjoon Online Judge, [2447번: 별 찍기 - 10](https://www.acmicpc.net/problem/2447).
