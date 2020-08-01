@@ -3,8 +3,6 @@ title: 자료구조 스터디_문제 5_별 찍기
 tags: Study Data-Structures Recursion
 ---
 
-# 자료구조 스터디_문제 5_별 찍기
-
 3의 거듭제곱수인 ![n](https://latex.codecogs.com/svg.latex?n)이 입력되면 가운데를 제외하고 `*`문자로 채워진 ![n times n](https://latex.codecogs.com/svg.latex?n%20%5Ctimes%20n)크기의 정사각형이 출력된다. 예를 들어 ![n](https://latex.codecogs.com/svg.latex?n)이 3일 경우, 다음과 같이 출력된다.
 
 ```
@@ -14,11 +12,12 @@ tags: Study Data-Structures Recursion
 
 ```
 
-## 입력 1
+## 입·출력 예시
+### 입력 1
 
 `1`
 
-## 출력 1
+### 출력 1
 
 ```
 *
@@ -27,11 +26,11 @@ tags: Study Data-Structures Recursion
 
 
 
-## 입력 2
+### 입력 2
 
 `3`
 
-## 출력 2
+### 출력 2
 
 ```
 ***
@@ -40,11 +39,11 @@ tags: Study Data-Structures Recursion
 
 ```
 
-## 입력 3
+### 입력 3
 
 `9`
 
-## 출력 3
+### 출력 3
 
 ```
 *********
@@ -59,11 +58,11 @@ tags: Study Data-Structures Recursion
 
 ```
 
-## 입력 4
+### 입력 4
 
 `27`
 
-## 출력 4
+### 출력 4
 
 ```
 ***************************
@@ -96,11 +95,11 @@ tags: Study Data-Structures Recursion
 
 ```
 
-## 입력 5
+### 입력 5
 
 `81`
 
-## 출력 5
+### 출력 5
 
 ```
 *********************************************************************************
